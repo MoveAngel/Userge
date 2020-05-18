@@ -18,6 +18,7 @@ Pillow
 psutil
 pybase64
 pymongo
+pyrogram
 pySmartDL
 python-dotenv
 pytz

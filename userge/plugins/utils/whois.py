@@ -10,7 +10,8 @@
 import os
 
 from datetime import datetime
-from userge import userge, Message, User
+from userge import userge, Message
+from pyrogram import User
 
 
 def LastOnline(user: User):
