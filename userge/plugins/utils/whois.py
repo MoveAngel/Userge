@@ -8,7 +8,26 @@
 
 
 import os
-from userge import userge, Message
+
+from datetime import datetime
+from userge import userge, Message, User
+
+
+def LastOnline(user: User):
+    if user.is_bot:
+        return ""
+    elif user.status.recently:
+        return "Recently"
+    elif user.status.within_week:
+        return "Within the last week"
+    elif user.status.within_month:
+        return "Within the last month"
+    elif user.status.long_time_ago:
+        return "A long time ago :("
+    elif user.status.online:
+        return "Online"
+    elif user.status.offline:
+        return datetime.fromtimestamp(user.status.date).strftime("%a, %d %b %Y, %H:%M:%S")
 
 
 @userge.on_cmd("whois", about={
@@ -17,7 +36,8 @@ from userge import userge, Message
     'examples': "{tr}whois [user_id | username]"})
 async def who_is(message: Message):
     await message.edit("`Collecting Whois Info.. Hang on!`")
-    user_id = message.input_str
+    user_id = message.input_str,
+    last_online=LastOnline(user)
 
     if user_id:
         try:
@@ -51,7 +71,7 @@ async def who_is(message: Message):
         message_out_str += f"<b>✅ Is Verified by Telegram:</b> <code>{from_user.is_verified}</code>\n"
         message_out_str += f"<b>🕵️‍♂️ User ID:</b> <code>{from_user.id}</code>\n"
         message_out_str += f"<b>📝 Bio:</b> <code>{from_chat.description}</code>\n\n"
-        message_out_str += f"<b>👁 Last Seen:</b> <code>{from_user.status}</code>\n"
+        message_out_str += f"<b>👁 Last Seen:</b> <code>{last_online}</code>\n"
         message_out_str += f"<b>🔗 Permanent Link To Profile:</b> <a href='tg://user?id={from_user.id}'>{from_user.first_name}</a>"
 
         if from_user.photo:
