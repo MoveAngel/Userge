@@ -8,8 +8,8 @@
         "pluggable",
         "userbot"
     ],
-    "repository": "https://github.com/UsergeTeam/Userge",
-    "website": "https://github.com/Userge",
+    "repository": "https://github.com/MoveAngel/Userge",
+    "website": "https://github.com/MoveAngel",
     "success_url": "https://t.me/theUserge",
     "env": {
         "APP_ID": {

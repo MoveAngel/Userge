@@ -1,24 +1,24 @@
 <p align="center">
-    <a href="https://github.com/UsergeTeam/Userge">
+    <a href="https://github.com/MoveAngel/Userge">
         <img src="resources/userge.png" alt="Userge">
     </a>
     <br>
     <b>Pluggable Telegram UserBot</b>
     <br>
-    <a href="https://github.com/UsergeTeam/Userge#inspiration-">Inspiration</a>
+    <a href="https://github.com/MoveAngel/Userge#inspiration-">Inspiration</a>
     &nbsp•&nbsp
-    <a href="https://github.com/UsergeTeam/Userge#features-">Features</a>
+    <a href="https://github.com/MoveAngel/Userge#features-">Features</a>
     &nbsp•&nbsp
-    <a href="https://github.com/UsergeTeam/Userge#example-plugin-">Example</a>
+    <a href="https://github.com/MoveAngel/Userge#example-plugin-">Example</a>
     &nbsp•&nbsp
-    <a href="https://github.com/UsergeTeam/Userge#requirements-">Requirements</a>
+    <a href="https://github.com/MoveAngel/Userge#requirements-">Requirements</a>
     &nbsp•&nbsp
-    <a href="https://github.com/UsergeTeam/Userge#project-credits-">Project Credits</a>
+    <a href="https://github.com/MoveAngel/Userge#project-credits-">Project Credits</a>
     &nbsp•&nbsp
-    <a href="https://github.com/UsergeTeam/Userge#copyright--license-">Copyright & License</a>
+    <a href="https://github.com/MoveAngel/Userge#copyright--license-">Copyright & License</a>
 </p>
 
-# Userge 🔥
+# Userge 🔥 &middot; [![License](https://img.shields.io/github/license/MoveAngel/Userge?label=License)](https://github.com/MoveAngel/Userge/blob/master/LICENSE) [![Last Commit](https://img.shields.io/github/last-commit/MoveAngel/Userge/master?label=Last%20Commit)](https://github.com/MoveAngel/Userge) [![Commit Activity](https://img.shields.io/github/commit-activity/y/MoveAngel/Userge?label=Commit%20Activity)](https://github.com/MoveAngel/Userge/commits/master)
 
 > **Userge** is a Powerful , _Pluggable_ Telegram UserBot written in _Python_ using [Pyrogram](https://github.com/pyrogram/pyrogram).
 
@@ -89,13 +89,13 @@ async def testing(message: Message):
 
   > Finally turn on the app and check the logs (settings -> view logs) :)
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UsergeTeam/Userge)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MoveAngel/Userge)
 
 * **Other Method** 🔧
 
   ```bash
   # clone the repo
-  git clone https://github.com/UsergeTeam/Userge.git
+  git clone https://github.com/MoveAngel/Userge.git
   cd Userge
 
   # create virtualenv
@@ -129,7 +129,7 @@ async def testing(message: Message):
 
 ### Project Credits 💆‍♂️
 
-* [Specially to these projects](https://github.com/UsergeTeam/Userge#inspiration-) 🥰
+* [Specially to these projects](https://github.com/MoveAngel/Userge#inspiration-) 🥰
 * [@uaudIth](https://t.me/uaudIth)
 * [@K_E_N_W_A_Y](https://t.me/K_E_N_W_A_Y)
 * [@nawwasl](https://t.me/nawwasl)
@@ -140,4 +140,4 @@ async def testing(message: Message):
 ### Copyright & License 👮
 
 * Copyright (C) 2020 by [UsergeTeam](https://github.com/UsergeTeam) ❤️️
-* Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/UsergeTeam/Userge/blob/master/LICENSE)
+* Licensed under the terms of the [GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007](https://github.com/MoveAngel/Userge/blob/master/LICENSE)
