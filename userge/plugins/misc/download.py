@@ -81,8 +81,8 @@ async def down_load_media(message: Message):
                     "**ETA** : `{}`"
                 progress_str = progress_str.format(
                     "trying to download",
-                    ''.join(["█" for i in range(math.floor(percentage / 5))]),
-                    ''.join(["░" for i in range(20 - math.floor(percentage / 5))]),
+                    ''.join(["■" for i in range(math.floor(percentage / 5))]),
+                    ''.join(["▨" for i in range(20 - math.floor(percentage / 5))]),
                     round(percentage, 2),
                     url,
                     custom_file_name,

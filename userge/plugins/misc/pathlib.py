@@ -62,8 +62,8 @@ class _BaseLib:
         """Returns progress"""
         percentage = self.percentage
         progress_str = "[{}{}]".format(
-            ''.join(["█" for i in range(floor(percentage / 5))]),
-            ''.join(["░" for i in range(20 - floor(percentage / 5))]))
+            ''.join(["■" for i in range(floor(percentage / 5))]),
+            ''.join(["▨" for i in range(20 - floor(percentage / 5))]))
         return progress_str
 
     @property
@@ -257,8 +257,8 @@ class SCLib(_BaseLib):
         """Returns progress"""
         percentage = self.percentage
         progress_str = "[{}{}]".format(
-            ''.join(["█" for i in range(floor(percentage / 5))]),
-            ''.join(["░" for i in range(20 - floor(percentage / 5))]))
+            ''.join(["■" for i in range(floor(percentage / 5))]),
+            ''.join(["▨" for i in range(20 - floor(percentage / 5))]))
         return progress_str
 
     @property
