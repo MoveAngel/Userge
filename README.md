@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/MoveAngel/Userge">
-        <img src="resources/userge.png" alt="Userge">
+        <img src="resources/iu.png" alt="Dlwlrma">
     </a>
     <br>
     <b>Pluggable Telegram UserBot</b>
@@ -119,17 +119,14 @@ async def testing(message: Message):
 
 > TODO: add Docker Support.
 
-### Video Tutorial 🎥
-
-  [![Tutorial](resources/tutorial.jpg)](https://youtu.be/-XJj686zeiY "Tutorial")
-
 ### Support & Discussions 👥
 
-> Head over to the [Discussion Group](https://t.me/slbotsbugs) and [Update Channel](https://t.me/theUserge)
+> Head over to the [Discussion Group](https://t.me/userbotindo) and [Update Channel](https://t.me/userbotindocloud)
 
 ### Project Credits 💆‍♂️
 
 * [Specially to these projects](https://github.com/MoveAngel/Userge#inspiration-) 🥰
+* [Userge Team](https://github.com/UsergeTeam)
 * [@uaudIth](https://t.me/uaudIth)
 * [@K_E_N_W_A_Y](https://t.me/K_E_N_W_A_Y)
 * [@nawwasl](https://t.me/nawwasl)
