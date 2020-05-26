@@ -204,8 +204,8 @@ class _GDrive(_DBase):
                         "**Speed** : `{}/s`\n" + \
                         "**ETA** : `{}`"
                     self._progress = tmp.format(
-                        "".join(["■" for i in range(math.floor(percentage / 5))]),
-                        "".join(["▨" for i in range(20 - math.floor(percentage / 5))]),
+                        "".join(["■" for i in range(math.floor(percentage / 10))]),
+                        "".join(["▨" for i in range(10 - math.floor(percentage / 10))]),
                         round(percentage, 2),
                         file_name,
                         humanbytes(f_size),
@@ -304,8 +304,8 @@ class _GDrive(_DBase):
                         "**Speed** : `{}/s`\n" + \
                         "**ETA** : `{}`"
                     self._progress = tmp.format(
-                        "".join(["■" for i in range(math.floor(percentage / 5))]),
-                        "".join(["▨" for i in range(20 - math.floor(percentage / 5))]),
+                        "".join(["■" for i in range(math.floor(percentage / 10))]),
+                        "".join(["▨" for i in range(10 - math.floor(percentage / 10))]),
                         round(percentage, 2),
                         name,
                         humanbytes(f_size),
@@ -393,8 +393,8 @@ class _GDrive(_DBase):
             "```[{}{}]({}%)```\n" + \
             "**Completed** : `{}/{}`"
         self._progress = tmp.format(
-            "".join(["■" for i in range(math.floor(percentage / 5))]),
-            "".join(["▨" for i in range(20 - math.floor(percentage / 5))]),
+            "".join(["■" for i in range(math.floor(percentage / 10))]),
+            "".join(["▨" for i in range(10 - math.floor(percentage / 10))]),
             round(percentage, 2),
             self._completed,
             self._list)
@@ -713,8 +713,8 @@ class Worker(_GDrive):
                         "**ETA** : `{}`"
                     progress_str = progress_str.format(
                         "trying to download",
-                        ''.join(["■" for i in range(math.floor(percentage / 5))]),
-                        ''.join(["▨" for i in range(20 - math.floor(percentage / 5))]),
+                        ''.join(["■" for i in range(math.floor(percentage / 10))]),
+                        ''.join(["▨" for i in range(10 - math.floor(percentage / 10))]),
                         round(percentage, 2),
                         url,
                         file_name,

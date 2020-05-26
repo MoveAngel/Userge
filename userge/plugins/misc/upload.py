@@ -142,8 +142,8 @@ async def uploadtotg(message: Message):
                     "**ETA** : `{}`"
                 progress_str = progress_str.format(
                     "trying to download",
-                    ''.join(["■" for i in range(math.floor(percentage / 5))]),
-                    ''.join(["▨" for i in range(20 - math.floor(percentage / 5))]),
+                    ''.join(["■" for i in range(math.floor(percentage / 10))]),
+                    ''.join(["▨" for i in range(10 - math.floor(percentage / 10))]),
                     round(percentage, 2),
                     url,
                     file_name,

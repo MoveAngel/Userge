@@ -27,7 +27,7 @@ async def progress(current: int,
         await client.stop_transmission()
     now = time.time()
     diff = now - start
-    if diff % 10 < 0.3 or current == total:
+    if diff % 10.00 == 0 or current == total:
         percentage = current * 100 / total
         speed = current / diff
         time_to_completion = time_formatter(int((total - current) / speed))
@@ -42,8 +42,8 @@ async def progress(current: int,
         progress_str = progress_str.format(
             ud_type,
             file_name,
-            ''.join(["■" for i in range(floor(percentage / 5))]),
-            ''.join(["▨" for i in range(20 - floor(percentage / 5))]),
+            ''.join(["■" for i in range(floor(percentage / 10))]),
+            ''.join(["▨" for i in range(10 - floor(percentage / 10))]),
             round(percentage, 2),
             humanbytes(current),
             humanbytes(total),
