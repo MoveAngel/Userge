@@ -44,7 +44,7 @@ async def alive(message: Message):
 
 async def refresh_id():
     global LOGO_STICKER_ID, LOGO_STICKER_REF
-    sticker = (await userge.get_messages('theUserge', 8)).sticker
+    sticker = (await userge.get_messages('dlwlrmachannel', 3)).sticker
     LOGO_STICKER_ID = sticker.file_id
     LOGO_STICKER_REF = sticker.file_ref
 
