@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/MoveAngel/Userge">
-        <img src="resources/iu.png" alt="Dlwlrma">
+        <img src="resources/sticker.webp" alt="Dlwlrma">
     </a>
     <br>
     <b>Pluggable Telegram UserBot</b>
